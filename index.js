@@ -21,7 +21,7 @@ const Reg = mongoose.model("logins", regSchema);
 
 //To present the html page
 app.get("/", function(req, res) {
-    res.sendFile(__dirname + "/index.html");
+    res.sendFile(__dirname + "/main.html");
 })
 
 //Send data to mongoDB
