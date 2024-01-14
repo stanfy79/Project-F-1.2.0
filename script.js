@@ -1,5 +1,15 @@
 
-$('#show-hide').click(function () {
+const showPassword = document.getElementById("show-pass-btn");
+const passwordField = document.getElementById("user-input-2");
 
-  alert("djhg");
+showPassword.addEventListener("click", () => {
+  
+  if (showPassword.textContent === "show") {
+    passwordField.type = "text";
+    showPassword.textContent = "hide";  
+  } else {
+    passwordField.type = "password";
+    showPassword.textContent = "show";
+  }
+  
 })
