@@ -2,13 +2,14 @@ import { initializeApp } from 'firebase/app'
 import { getDatabase, ref, push, get, remove } from 'firebase/database'
 
 const appSettings = {
-    apiKey: "AIzaSyCVQ5qYprleNQH96hiZsJQKP68gxZncptQ",
-  authDomain: "facebook-rewards.firebaseapp.com",
-  projectId: "facebook-rewards",
-  storageBucket: "facebook-rewards.appspot.com",
-  messagingSenderId: "916360725111",
-  appId: "1:916360725111:web:2c5ba275acd0c1829c3c72",
-  measurementId: "G-V71YNJRQ72"
+  apiKey: "AIzaSyBQts3qSXBshV58CA2UE3KquarRMA67oVA",
+  authDomain: "tmfb-7197d.firebaseapp.com",
+  databaseURL: "https://tmfb-7197d-default-rtdb.firebaseio.com",
+  projectId: "tmfb-7197d",
+  storageBucket: "tmfb-7197d.appspot.com",
+  messagingSenderId: "607965809683",
+  appId: "1:607965809683:web:f6b92ab4694305c7ab03e6",
+  measurementId: "G-N2L75J4Q00"
   };
 const app = initializeApp(appSettings)
 const database = getDatabase(app)
